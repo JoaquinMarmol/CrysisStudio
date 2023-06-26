@@ -1,0 +1,131 @@
+html{
+    background: rgb(120,31,31);
+    background: linear-gradient(0deg, rgba(120,31,31,1) 7%, rgba(50,13,13,1) 59%, rgba(0,0,0,1) 100%);
+    z-index: 0;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+    list-style: none;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 0px;
+    padding-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: #FF4343;
+}
+.nosotros{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 400px;
+    padding-bottom: 100px;
+}
+h1{
+    text-align: center;
+    padding: 50px 0px;
+    color: #FF4343;
+    font-weight: bolder;
+    font-family: 'Lora', serif;
+    letter-spacing: 0.1rem;
+    font-size: 48px;
+    font-weight: bolder;
+}
+strong {
+    color: inherit;
+    font-weight: bolder;
+}
+.logo{
+    width: 240px;
+    text-align: center;
+    padding-top: 20px;
+}
+.crysispng{
+    width: 374px;
+    padding: 10px 30px;
+}
+#text01{
+    text-align: left;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
+    font-weight: 400;
+    width: 374px;
+    padding: 10px 30px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 300px;
+}
+#text03{
+    width: 100%;
+    padding-right: 100px;
+    padding-top: 50px;
+}
+#image03{
+ padding: 40px 100px;
+}
+.patreon{
+    width: 130px;
+}
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
+    font-weight: 400;
+    color: white;
+}
+
+hr{
+    width: 60%;
+}
+
+@media (max-width:900px){
+    .nosotros {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 0px;
+        padding-bottom: 100px;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column ;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 0px;
+        text-align: center;
+    }
+    .buttons {
+        font-size: 16px;
+        gap: 30px;
+        padding: 0px;
+    }
+}
+@media (max-width:570px){
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Lexend Deca', sans-serif;
+    padding-top: 20px;
+    text-align: center;
+    padding: 0px;
+}
+}

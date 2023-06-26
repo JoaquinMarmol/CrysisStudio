@@ -1,0 +1,16 @@
+.afilfoto{
+    width: 420px;
+}
+.afiliados{
+    text-align: center;
+    padding: 100px 0px;
+}
+
+@media (max-width:580px){
+    .afilfoto{
+        width: 300px;
+    }
+    #image03 {
+        padding: 0px;
+    }
+}
