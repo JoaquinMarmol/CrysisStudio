@@ -1,6 +1,7 @@
+
 html{
     background: rgb(120,31,31);
-    background: linear-gradient(0deg, rgba(120,31,31,1) 7%, rgba(50,13,13,1) 59%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(0deg, rgba(120,31,31,1) 7%, rgb(11, 1, 1) 85%, rgb(0, 0, 0) 100%);
     z-index: 0;
     width: 100%;
     background-repeat: no-repeat;
@@ -10,7 +11,7 @@ html{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 60px;
+    gap: 30px;
     list-style: none;
     font-size: 24px;
     font-weight: 400;
@@ -18,9 +19,19 @@ html{
     padding: 0px;
     padding-top: 20px;
 }
+.button{
+    transition: 0.35s ease-out;
+    transition-delay: 0.2s;
+}
+.button:hover{
+    color: white;
+    border: 1px solid white;
+
+}
 a{
     text-decoration: none;
     color: #FF4343;
+    padding: 10px 25px;
 }
 .nosotros{
     display: flex;
@@ -48,7 +59,15 @@ strong {
     width: 240px;
     text-align: center;
     padding-top: 20px;
+    overflow:hidden;
+    transition: transform 0.3s ease;
 }
+
+.logo:hover{
+ -webkit-transform:scale(0.90);
+ transform:scale(0.90);
+}
+
 .crysispng{
     width: 374px;
     padding: 10px 30px;
@@ -78,7 +97,15 @@ strong {
 }
 .patreon{
     width: 130px;
+    overflow:hidden;
+    transition: transform 0.3s ease;
 }
+
+.patreon:hover{
+ -webkit-transform:scale(0.90);
+ transform:scale(0.90);
+}
+
 p{
     font-family: 'Lexend Deca', sans-serif;
     font-size: 1em;
@@ -110,7 +137,7 @@ hr{
     }
     .buttons {
         font-size: 16px;
-        gap: 30px;
+        gap: 0px;
         padding: 0px;
     }
 }

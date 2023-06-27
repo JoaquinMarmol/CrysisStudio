@@ -17,6 +17,14 @@ span img{
 li{
     list-style: none;
 }
+img{
+    overflow:hidden;
+    transition: transform 0.3s ease;
+}
+img:hover{
+ -webkit-transform:scale(0.90);
+ transform:scale(0.90);
+}
 @media (max-width:1100px){
     span img{
         width: 350px;

@@ -29,6 +29,15 @@ html{
 .footer{
     padding-top: 80px;
 }
+img{
+    overflow:hidden;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+img:hover{
+ -webkit-transform:scale(0.90);
+ transform:scale(0.90);
+}
 
 @media (max-width:630px){
     .image{

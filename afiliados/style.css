@@ -5,6 +5,17 @@
     text-align: center;
     padding: 100px 0px;
 }
+img{
+    overflow:hidden;
+    transition: transform 0.3s ease;
+}
+img:hover{
+ -webkit-transform:scale(0.90);
+ transform:scale(0.90);
+}
+h2{
+    color: white;
+}
 
 @media (max-width:580px){
     .afilfoto{

@@ -8,6 +8,7 @@ li{
     justify-content: center;
     width: 100%;
     padding: 0;
+    text-align: center;
 }
 span img{
     height: 750px;
@@ -16,12 +17,33 @@ span img{
 }
 .galeria li{
     position: relative;
-    padding: 10px;
+    padding: 30px;
 }
 p{
     text-align: center;
     font-family: 'Lexend Deca', sans-serif;
-    font-size: 20px;
+    font-size: 28px;
+    padding-top: 30px;
+}
+img{
+    filter: grayscale(90%); 
+    overflow:hidden;
+    transition: transform 0.3s ease;
+}
+img:hover {
+    filter: grayscale(0%);
+    -webkit-transform:scale(1.10);
+    transform:scale(1.10);
+}
+h1{
+    padding: 0px;
+    padding-top: 30px;
+}
+.logo{
+    filter: grayscale(0%);
+}
+.patreon{
+    filter: grayscale(0%);
 }
 
 @media (max-width:550px){
