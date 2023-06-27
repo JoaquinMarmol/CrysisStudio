@@ -18,12 +18,14 @@ span img{
 .galeria li{
     position: relative;
     padding: 30px;
+    animation: fade 1s ease-in, slide-up 1s ease-in-out;
 }
 p{
     text-align: center;
     font-family: 'Lexend Deca', sans-serif;
     font-size: 28px;
     padding-top: 30px;
+   
 }
 img{
     filter: grayscale(90%); 

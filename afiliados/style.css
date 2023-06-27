@@ -4,6 +4,7 @@
 .afiliados{
     text-align: center;
     padding: 100px 0px;
+    animation: fade 1s ease-in, slide-up 1s ease-in-out;
 }
 img{
     overflow:hidden;

@@ -5,6 +5,7 @@
     align-items: center;
     text-align: center;
     padding: 50px 0px;
+    animation: fade 1s ease-in, slide-up 1s ease-in-out;
 }
 #container01.columns > .wrapper > .inner {
     display: flex;
@@ -13,6 +14,7 @@
     align-items: center;
     text-align: center;
     padding: 50px 0px;
+    animation: fade 1s ease-in, slide-up 1s ease-in-out;
 }
 .image{
     width: 200px;
