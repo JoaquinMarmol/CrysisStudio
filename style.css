@@ -227,9 +227,20 @@ hr {
         gap: 0px;
         padding: 0px;
     }
+    #text03 {
+        width: 100%;
+        padding-right: 0px;
+        padding-top: 50px;
+    }
+    .button{
+        padding: 10px 15px;
+    }
 }
 
 @media (max-width:570px) {
+    h1{
+        font-size: 36px;
+    }
     .buttons {
         display: flex;
         flex-direction: column;
@@ -242,5 +253,37 @@ hr {
         padding-top: 20px;
         text-align: center;
         padding: 0px;
+    }
+    #text01 {
+        text-align: left;
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 1em;
+        line-height: 1.5;
+        font-weight: 400;
+        width: 100%;
+        padding: 10px 0px;
+    }
+    
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 0px;
+    
+    }
+    
+    #text03 {
+        width: 100%;
+        padding-right: 0px;
+        padding-top: 50px;
+    }
+    
+    #image03 {
+        padding: 40px 0px;
+    }
+    .crysispng {
+        width: 100%;
+        padding: 10px 0px;
+        animation: fade 1s ease-in, slide-up 1s ease-in-out;
     }
 }

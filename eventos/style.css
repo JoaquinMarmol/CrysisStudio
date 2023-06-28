@@ -58,6 +58,9 @@ h1{
         padding:0px;
         padding-top: 25px;
     }
+    .galeria li{
+        padding: 10px 0px;
+    }
 
 }
 
@@ -67,5 +70,7 @@ h1{
         width: initial;
         border-radius: 25px;
     }
-    
+    .galeria li{
+        padding: 10px 0px;
+    }
 }
